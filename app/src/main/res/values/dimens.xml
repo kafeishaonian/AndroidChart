@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 分时线指标tab的高度 -->
+    <dimen name="line_index_tab_height">28dp</dimen>
+    <!-- 显示分时线上面的点数据 -->
+    <dimen name="line_msg_text_size">10dp</dimen>
+</resources>

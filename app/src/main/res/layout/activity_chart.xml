@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.chart.client.chart.TickChart
+        android:id="@+id/tick"
+        android:layout_width="match_parent"
+        android:layout_height="126dp" />
+
+    <com.chart.client.chart.BarChart
+        android:id="@+id/tick_bar"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.chart.client.chart.KLineStockChart
+                android:id="@+id/kline"
+                android:layout_width="match_parent"
+                android:layout_height="260dp" />
+
+            <com.chart.client.chart.BarChart
+                android:id="@+id/kline_bar"
+                android:layout_width="match_parent"
+                android:layout_height="90dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/ma5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="MA5:"/>
+            <TextView
+                android:id="@+id/ma10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="MA10:"/>
+            <TextView
+                android:id="@+id/ma20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="MA20:"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
