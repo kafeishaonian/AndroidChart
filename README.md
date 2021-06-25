@@ -1,2 +1,4 @@
 # androidchart
 androidchart
+使用MPAndroidChart实现股票行情图与K线图
+通过自定义View实现股票行情图与K线图
